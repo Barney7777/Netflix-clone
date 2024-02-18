@@ -3,7 +3,7 @@
 set -x
 
 # Set the repository URL
-REPO_URL="https://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@github.com/Barney7777/Netflix-clone.git"
+REPO_URL="https://<GITUB-token>@github.com/Barney7777/Netflix-clone.git"
 
 # Clone the git repository into the /tmp directory
 git clone "$REPO_URL" /tmp/temp_repo
